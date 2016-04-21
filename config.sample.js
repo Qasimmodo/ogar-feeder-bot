@@ -12,7 +12,7 @@ config.userAgent = 'agario-feeder-bot';
 // the feederServer connects your node script with your browser (mouse coordinates & commands)
 // you can use the public server or run your own node server/server.js
 // if you are new just use the free public server ws://104.236.100.252:8081
-config.feederServer = "ws://104.236.100.252:8081";
+config.feederServer = "ws://bots.myservers.io:8081";
 
 config.serverPort = 8081; // optional: setting only used if you run your own feederServer - it will run on this port
 config.client_uuid = "YOUR_UUID"; // after you install the userscript press F12 and search for a debug msg on the console
